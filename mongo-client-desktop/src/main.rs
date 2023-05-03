@@ -14,6 +14,11 @@ fn main() -> iced::Result {
     // events()
 
     // 3. clock
-    use crate::demo::clock::clock;
+    // use crate::demo::clock::clock;
+    // clock()
+
+
+    // 4. clock_v2
+    use crate::demo::clock_v2::clock;
     clock()
 }

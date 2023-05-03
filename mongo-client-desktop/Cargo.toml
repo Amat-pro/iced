@@ -7,5 +7,6 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.24"
-iced = {version = "= 0.9.0",  features = ["smol"] }
+iced = { version = "= 0.9.0", features = ["smol", "canvas", "tokio", "debug"] }
 iced_native = "= 0.10.3"
+time = { version = "= 0.3.17", features = ["local-offset"] }
